@@ -188,13 +188,17 @@ header {
     color: black;
     align-self: center;
     text-align: center;
+    justify-self: center;
     margin-top: 50px;
     font-size: 4rem;
     font-family: 'MonteCarlo', 'Times New Roman', Times, serif;
     font-weight: 500;
     text-shadow: 2px 1px white;
+    border-bottom: 1px solid black;
 }
-
+.overlay a{
+    text-decoration: none;
+}
 .blocks:hover {
     transform: scale(1.13);
     box-shadow: 2px 2px 2px 2px black;
