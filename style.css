@@ -73,9 +73,10 @@ header {
     height: 67.5vh;
     background-color: black;
 }
-.container{
+
+.container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-left: 200px;
     margin-right: 200px;
@@ -85,32 +86,120 @@ header {
     align-content: center;
     justify-content: center;
     justify-items: center;
-   
 }
-.quote{
+
+.quote {
     position: absolute;
     z-index: 2;
     height: 250px;
     width: 250px;
-    background-color:#44444d ;
-   border-radius: 50px;
-   
-   border: 1px solid white;
-   outline: 3px solid #676875;
+    background-color: #44444d;
+    border-radius: 50px;
+
+    border: 1px solid white;
+    outline: 3px solid #676875;
+    transition: 0.3s ease;
 }
-.quote h2{
+
+.quote h2 {
     font-size: 4rem;
     text-shadow: 4px 1px black;
     color: white;
     text-align: center;
 }
-.quote p{
+
+.quote p {
     color: white;
-    font-family: 'Caveat','Times New Roman', Times, serif;
+    font-family: 'Caveat', 'Times New Roman', Times, serif;
     font-size: 1.3rem;
     text-align: justify;
     margin-left: 15px;
     margin-right: 15px;
     text-shadow: 2px 1px black;
     font-weight: 400;
+}
+
+.quote h5 {
+    color: white;
+    text-shadow: 2px 1px black;
+    font-family: 'MonteCarlo', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.quote:hover {
+    transform: scale(1.2);
+    box-shadow: 1px 2px 1px 2px white;
+}
+
+.motto {
+    color: black;
+    font-weight: 550;
+    tab-size: 50px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.sections {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(saksham1.jpeg);
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+.abilities {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+    margin-top: 120px;
+}
+
+.blocks {
+    height: 350px;
+    width: 300px;
+    background-color: black;
+    border-radius: 20px;
+    border: 3px solid white;
+    outline: 3px solid black;
+
+    transition: 0.3s ease;
+}
+
+.overlay h2 {
+    color: black;
+    align-self: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 4rem;
+    font-family: 'MonteCarlo', 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-shadow: 2px 1px white;
+}
+
+.blocks:hover {
+    transform: scale(1.13);
+    box-shadow: 2px 2px 2px 2px black;
+}
+.blocks h3{
+    color: white;
+    justify-self: center;
 }
