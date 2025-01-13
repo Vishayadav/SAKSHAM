@@ -7,7 +7,7 @@
 header {
     height: 200px;
     width: 100%;
-    background-color: #676875;
+    background-color: #16423C;
     color: white;
     align-items: center;
     justify-content: center;
@@ -28,10 +28,9 @@ header {
 
 
 .navigation {
-    background-color: rgb(0, 0, 0);
+    background-color: #C4DAD2;
     height: 40px;
     width: 100%;
-    opacity: 0.8;
     align-items: center;
     align-content: center;
     justify-items: center;
@@ -40,15 +39,16 @@ header {
 .navigation a {
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: black;
     margin: 30px;
-    color: gray;
+}
+.navigation a:hover{
+    background-color: #16423C;
+    border-radius: 10px;
+    padding: 3px;
+    color: #E9EFEC;
 }
 
-.navigation a:hover {
-    border-bottom: 2px inset white;
-    color: rgb(255, 255, 255);
-}
 
 .btn {
     align-self: right;
@@ -57,7 +57,7 @@ header {
     height: 20px;
     width: 50px;
     background-color: transparent;
-    color: white;
+    color:  #16423C;
     text-align: center;
     border-radius: 20px;
     transition: 0.4s ease;
@@ -67,11 +67,13 @@ header {
     transform: scale(1.2);
     border-bottom: 2px solid white;
     border-right: 2px solid white;
+    background-color: #16423C;
+    color: #E9EFEC;
 }
 
 .home {
     height: 67.5vh;
-    background-color: black;
+    background-color: #E9EFEC;
 }
 
 .container {
@@ -93,9 +95,8 @@ header {
     z-index: 2;
     height: 250px;
     width: 250px;
-    background-color: #44444d;
+    background-color: #276960;
     border-radius: 50px;
-
     border: 1px solid white;
     outline: 3px solid #676875;
     transition: 0.3s ease;
@@ -135,7 +136,7 @@ header {
 }
 
 .motto {
-    color: black;
+    color: #E9EFEC;
     font-weight: 550;
     tab-size: 50px;
     border-bottom: 1px solid rgb(255, 255, 255);
@@ -145,7 +146,7 @@ header {
     height: 100vh;
     width: 100%;
     position: relative;
-    background: url(images/saksham1.jpeg);
+    background-color: rgba(105, 155, 136,0.5);
     top: 0;
     left: 0;
 }
@@ -170,40 +171,76 @@ header {
     align-self: center;
     justify-self: center;
     justify-items: center;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 .blocks {
-    height: 350px;
-    width: 300px;
-    background-color: black;
+    height: 400px;
+    width: 250px;
+    background-color: #E9EFEC;
     border-radius: 20px;
-    border: 3px solid white;
-    outline: 3px solid black;
-
-    transition: 0.3s ease;
+    border: 4px solid white;
+    outline:2px solid #16423C;
+    transition: 0.4s ease;
 }
-
-.overlay h2 {
-    color: black;
+/* .blocks:hover{
+    transform: scale(1.08);
+} */
+.blocks img{
+    border-radius: 20px;
+    border-bottom: 2px solid #276960;
+    height:290px; 
+    width:245px;
+}
+.sections h2 {
+    color: #16423C;
     align-self: center;
     text-align: center;
     justify-self: center;
-    margin-top: 50px;
     font-size: 4rem;
     font-family: 'MonteCarlo', 'Times New Roman', Times, serif;
     font-weight: 500;
     text-shadow: 2px 1px white;
     border-bottom: 1px solid black;
 }
-.overlay a{
+.sections a{
+    padding-top: 8px;
     text-decoration: none;
 }
-.blocks:hover {
-    transform: scale(1.13);
-    box-shadow: 2px 2px 2px 2px black;
-}
+
 .blocks h3{
-    color: white;
+    color: #16423C;
+    font-size: 1.5rem;
     justify-self: center;
+    margin-top: 10px;
 }
+.start{
+    background-color: #C4DAD2;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+.preview{
+    background-color: #C4DAD2;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+.start:hover{
+transform: scale(1.1);
+}
+.preview:hover{
+    transform: scale(1.1);
+    }
