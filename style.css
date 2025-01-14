@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-header {
+body{
+    background-color: #e0e9e5;
+}
+/* header {
     height: 200px;
     width: 100%;
     background-color: #16423C;
@@ -13,10 +17,58 @@ header {
     justify-content: center;
     align-content: center;
     justify-items: center;
+} */
+.homepage{
+    height: 100vh;
+    width: 100%;
+}
+header{
+    top: 0;
+    margin-top: 15px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-self: center;
+    justify-self: center;
+    height: 7vh;
+    background-color: #ffffff;
+    margin-left: 220px;
+    border-radius: 50px;
+    z-index: 2;
+    color: #493628;
+    align-items: center;
 }
 
+header .logo{
+    font-size: 1.7rem;
+    background-color: white;
+    margin-left: 15px;
+}
+header .links{
+    background-color: white;
+    width: 30%;
+}
+header .links a{
+    background-color: white;
+    color: #493628;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+header .links a:hover{
+    text-decoration: underline #493628;
+}
+.btn-contactUs{
+    height: 30px;
+    width: 80px;
+    background-color:#D6C0B3;
+    color: #493628;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-weight: 540;
+}
 .SAKSHAM {
-
     font-family: "Love Light", serif;
     font-weight: 400;
     font-style: normal;
@@ -25,8 +77,88 @@ header {
     text-shadow: 3px -1px black;
     transition: 0.4s ease;
 }
+.page{
+    background: url(images/saksham-homepage-2.jpeg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 93%;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+    border-radius: 70px;
+    margin-top: 40px;
+    margin-left: 15px;
+    /* box-shadow: 0px 0px 14px 2px black; */
+    /* border: 1px solid #493628; */
+}
 
+.OurMoto pre{
+font-size: 2.2rem;
+float: inline-start;
+margin-top: 470px;
+color: #D6C0B3;
+font-family: 'Noto Sans Hatran','Times New Roman', Times, serif;
+margin-left: 30px;
+line-height: 50px;
+text-shadow: 2px 0px 2px black;
+}
 
+.OurMoto pre span{
+    color: #E4E0E1;
+    font-weight: 900;
+    border-bottom: 1px solid white;
+}
+.welcome{
+    width: 40%;
+    height: 400px;
+    margin-top: 300px;
+    float: right;
+    color: white;
+    color: #D6C0B3;
+}
+.welcome h3{
+    font-size: 2rem;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    text-shadow: 2px 0px 2px black;
+}
+.welcome h3 span{
+    color: #D6C0B3;
+    text-shadow: 2px 0px 2px black;
+    border-bottom: 1px solid white;
+}
+.welcome h4{
+    align-self: center;
+    justify-self: center;
+    color: white;
+    text-shadow: 2px 0px 2px black;
+    margin: 10px;
+}
+.welcome h5{
+    text-align: justify;
+    /* font-family: 'Noto Sans Hatran','Times New Roman', Times, serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin-right: 50px;
+    margin-left: 30px;
+    text-shadow: 1px 0px 0px #000000;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+.startYourJourney{
+        height: 30px;
+        width: 180px;
+        background-color:#D6C0B3;
+        color: #493628;
+        border-radius: 10px;
+align-self: center;
+justify-self: center;
+margin-left: 160px;
+margin-top: 20px;
+font-weight: 540;
+}
 .navigation {
     background-color: #C4DAD2;
     height: 40px;
@@ -243,4 +375,4 @@ transform: scale(1.1);
 }
 .preview:hover{
     transform: scale(1.1);
-    }
+}
